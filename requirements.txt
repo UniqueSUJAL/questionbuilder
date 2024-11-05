@@ -1,0 +1,12 @@
+sqllite3
+re
+streamlit
+plotly
+pandas
+numpy
+google.generativeai
+datetime
+fpdf
+smtplib
+email.mime.text 
+email.mime.multipart
