@@ -1,4 +1,4 @@
-sqllite3
+sqlite3
 re
 streamlit
 plotly
