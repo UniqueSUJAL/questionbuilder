@@ -4,8 +4,11 @@ from fpdf import FPDF  # For generating PDF files
 import spacy  # Import spaCy
 import re
 from database_setup import get_unique_subjects, get_filtered_questions
-
+import subprocess
 # Load the spaCy model
+if not os.path.exists('en_core_web_sm'):
+    
+    subprocess.call(['python', '-m', 'spacy', 'download', 'en_core_web_sm'])
 nlp = spacy.load("en_core_web_sm")
 
 # Extract question and options using spaCy
