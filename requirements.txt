@@ -1,5 +1,5 @@
 
-re
+regex
 streamlit==1.39.0
 plotly
 pandas
