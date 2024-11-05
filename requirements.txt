@@ -7,7 +7,5 @@ numpy
 google.generativeai
 datetime
 fpdf
-smtplib
-email.mime.text 
 hashlib
-email.mime.multipart
+
